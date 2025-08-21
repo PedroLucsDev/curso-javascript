@@ -45,7 +45,7 @@ addTextBtn.addEventListener('click', function() {
     textContainer.appendChild(newParagraph);
 });
 
-// --- Função para o Botão que adiciona 5 textos ---
+// --- Função para o Botão que adiciona personagens ---
 
 // Seleciona botão pelo Id do HTML
 const addMultipleBtn = document.getElementById('addMultiBtn');
