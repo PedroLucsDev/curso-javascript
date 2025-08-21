@@ -1,0 +1,13 @@
+commit 34c421c0c03c9afb79889d4a6608bde614d7a772 (HEAD -> main, origin/main, origin/HEAD)
+Merge: 1d0f3fb 8340a75
+Author: PedroLucsDev <pedrolbritodev@gmail.com>
+Date:   Thu Aug 21 01:05:46 2025 -0300
+
+    Merge branch 'main' of https://github.com/PedroLucsDev/curso-javascript
+
+commit 1d0f3fbd7c9ef972f9b7a013f7a7a3195e653a3d
+Author: PedroLucsDev <pedrolbritodev@gmail.com>
+Date:   Thu Aug 21 01:05:26 2025 -0300
+
+    Alteração do titulo da pagina para o meu nome.
+:
