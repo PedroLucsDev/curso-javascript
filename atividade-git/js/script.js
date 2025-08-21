@@ -44,3 +44,31 @@ addTextBtn.addEventListener('click', function() {
     // Adiciona o novo parágrafo como um "filho" do contêiner de texto
     textContainer.appendChild(newParagraph);
 });
+
+// --- Função para o Botão que adiciona 5 textos ---
+
+// Seleciona botão pelo Id do HTML
+const addMultipleBtn = document.getElementById('addMultiBtn');
+
+
+
+// Quando clicado, adiciona 2 vezes o array de personagem
+addMultipleBtn.addEventListener('click', function() {
+    for (let i = 0; i < 2; i++) {
+
+        // Array com os nomes dos devidos persoangens
+        const personagens = ["Goku", "Vegeta", "Kuririn", "Piccolo", "Gohan"]
+        personagens.forEach(function(value){
+            // Cria um novo elemento de parágrafo (<p>)
+            const newParagraph = document.createElement('p');
+
+            // Adiciona uma classe CSS ao novo parágrafo para estilização
+            newParagraph.classList.add('new-text');
+
+            newParagraph.textContent = `Oi eu sou o ${value}`;
+
+            // Adiciona o novo parágrafo como um "filho" do contêiner de texto
+            textContainer.appendChild(newParagraph);
+        })
+    }
+});
